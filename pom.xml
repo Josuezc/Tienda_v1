@@ -8,10 +8,10 @@
 		<version>3.2.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.tienda</groupId>
-	<artifactId>Tienda</artifactId>
+	<groupId>com.Tarea</groupId>
+	<artifactId>Tarea</artifactId>
 	<version>1</version>
-	<name>Tienda</name>
+	<name>Tarea</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>21</java.version>
@@ -42,6 +42,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+	 <dependency>
+	  <groupId>org.springframework.boot</groupId>
+	  <artifactId>spring-boot-autoconfigure</artifactId>
+	  <version>3.2.1</version>
+	  <type>jar</type>
+	 </dependency>
 	</dependencies>
 
 	<build>
